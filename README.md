@@ -3,6 +3,7 @@ Simple pagination-ui plugin with RiotJS
 
 # Usage
 
+```html
 <riot-pagination
   show         = "{ participants.length }"
   current-page = "{ currentPage }"
@@ -16,34 +17,35 @@ Simple pagination-ui plugin with RiotJS
   show-next    = "true"
   show-prev    = "true">
 </riot-pagination>
+```
 
-## current-page
+#### current-page
 Current active page (default: 1)
 
-## per-page
+#### per-page
 No of items per page (default: 10)
 
-## page-changed
+#### page-changed
 function to be executed when the page is changed
 
-## page-count
+#### page-count
 No of total pages
 
-## record-count
+#### record-count
 Total number of records
 
-## max-buttons
+#### max-buttons
 Maximum number of page buttons to show (default: 8)
 
-## show-first
+#### show-first
 Show the 'First' page button (default: true)
 
-## show-last
+#### show-last
 Show the 'Last' page button (default: true)
 
-## show-next
+#### show-next
 Show 'Next' button (default: true)
 
-## show-prev
+#### show-prev
 Show 'Previous' button (default: true)
 
