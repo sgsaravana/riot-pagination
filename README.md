@@ -18,7 +18,7 @@ Simple pagination-ui plugin with RiotJS
   show-prev    = "true">
 </riot-pagination>
 ```
-
+---
 #### current-page
 Current active page (default: 1)
 
